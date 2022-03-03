@@ -1,0 +1,53 @@
+{
+  "name": "Next Boilerplate",
+  "short_name": "Next Boilerplate",
+  "theme_color": "#F04B32",
+  "background_color": "#F04B32",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/144x144/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/152x152/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/000000/FFFFFF?text=Next+Boilerplate",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
