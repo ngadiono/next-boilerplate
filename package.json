@@ -12,6 +12,8 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "@bugsnag/js": "^7.16.1",
+    "@bugsnag/plugin-react": "^7.16.1",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.4.4",
@@ -21,6 +23,7 @@
     "cross-env": "^7.0.3",
     "dayjs": "^1.10.8",
     "express": "^4.17.3",
+    "firebase": "^9.6.7",
     "formik": "^2.2.9",
     "morgan": "^1.10.0",
     "next": "12.1.0",
