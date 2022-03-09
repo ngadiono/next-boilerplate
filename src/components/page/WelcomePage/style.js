@@ -1,111 +1,98 @@
-import { css } from '@emotion/react';
+// MUI
+import { makeStyles } from '@mui/styles';
 
-export const container = css`
-  padding: 0 2rem;
-  background: 'red';
-  .main {
-    min-height: 100vh;
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: red;
-  }
-  .footer {
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
-  }
+const useStyles = makeStyles((theme) => ({
+  container: {
+    padding: '0 2rem',
+  },
+  main: {
+    minHeight: '100vh',
+    padding: '4rem 0',
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    margin: 0,
+    lineHeight: 1.15,
+    fontSize: '4rem',
+    '& a': {
+      color: '#0070f3',
+      textDecoration: 'none',
+      '&:hover, &:focus, &:active': {
+        textDecoration: 'underline',
+      },
+    },
+  },
+  description: {
+    margin: '4rem 0',
+    lineHeight: 1.5,
+    fontSize: '1.5rem',
+    textAlign: 'center',
+  },
+  code: {
+    background: '#fafafa',
+    borderRadius: 5,
+    padding: '0.75rem',
+    fontSize: '1.1rem',
+    fontFamily:
+      'Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace',
+  },
+  grid: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    maxWidth: 800,
+    // [theme.breakpoints.down('md')]: {
+    //   width: '100%',
+    //   flexDirection: 'column',
+    // },
+  },
+  card: {
+    margin: '1rem',
+    padding: '1.5rem',
+    textAlign: 'left',
+    color: 'inherit',
+    textDecoration: 'none',
+    border: '1 solid #eaeaea',
+    borderRadius: 10,
+    transition: 'color 0.15s ease, border-color 0.15s ease',
+    maxWidth: 300,
+    '&:hover, &:focus, &:active': {
+      color: '#0070f3',
+      borderColor: '#0070f3',
+    },
+    '& h2': {
+      margin: '0 0 1rem 0',
+      fontSize: '1.5rem',
+    },
+    '& p': {
+      margin: 0,
+      fontSize: '1.25rem',
+      lineHeight: 1.5,
+    },
+  },
+  logo: {
+    height: '1em',
+    marginLeft: '0.5rem',
+  },
+  footer: {
+    display: 'flex',
+    flex: 1,
+    padding: '2rem 0',
+    borderTop: '1 solid #eaeaea',
+    justifyContent: 'center',
+    alignItems: 'center',
+    '& a': {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexGrow: 1,
+    },
+  },
+}));
 
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
-
-  .title a {
-    color: #0070f3;
-    text-decoration: none;
-  }
-
-  .title a:hover,
-  .title a:focus,
-  .title a:active {
-    text-decoration: underline;
-  }
-
-  .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 4rem;
-  }
-
-  .title,
-  .description {
-    text-align: center;
-  }
-
-  .description {
-    margin: 4rem 0;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-
-  .code {
-    background: #fafafa;
-    border-radius: 5px;
-    padding: 0.75rem;
-    font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
-      Courier New, monospace;
-  }
-
-  .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 800px;
-  }
-
-  .card {
-    margin: 1rem;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 300px;
-  }
-
-  .card:hover,
-  .card:focus,
-  .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
-  }
-
-  .card h2 {
-    margin: 0 0 1rem 0;
-    font-size: 1.5rem;
-  }
-
-  .card p {
-    margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.5;
-  }
-
-  .logo {
-    height: 1em;
-    margin-left: 0.5rem;
-  }
-`;
+export default useStyles;
