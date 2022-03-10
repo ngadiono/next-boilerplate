@@ -25,7 +25,7 @@
       "@/store/*": ["store/*"],
 
       // Styles
-      "@/style/*": ["styles/*"],
+      "@/styles/*": ["styles/*"],
 
       // Utils
       "@/helpers": ["utils/helpers"],
