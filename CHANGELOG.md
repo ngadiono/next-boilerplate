@@ -4,4 +4,5 @@
 
 - Custome Server with [Express.js](https://expressjs.com/)
 - Unit testing with [Jest](https://jestjs.io/)
+- Analyze bundles app
 - Support Environment variables

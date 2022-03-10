@@ -1,6 +1,8 @@
 // Components
 import WelcomePage from '@/page/WelcomePage';
 
-export default () => {
+const Welcome = () => {
   return <WelcomePage />;
 };
+
+export default Welcome;
