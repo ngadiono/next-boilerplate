@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import dashboard from './dashboard/reducers';
+import user from './user/reducers';
 
 const reducers = combineReducers({
-  dashboard,
+  user,
 });
 
 export default reducers;

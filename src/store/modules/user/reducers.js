@@ -1,12 +1,12 @@
 import * as types from './types';
 
-// Initial state alert
-const initialAlertState = {
-  status: true,
+// Initial state user
+const initialModuleUserState = {
+  status: false,
 };
 
 // Tab reducer
-export default (state = initialAlertState, { type, payload }) => {
+export default (state = initialModuleUserState, { type, payload }) => {
   switch (type) {
     case types.STATUS:
       return {

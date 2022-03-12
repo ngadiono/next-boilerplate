@@ -21,6 +21,9 @@
       "@/firebase": ["lib/firebase"],
       "@/bugsnag": ["lib/bugsnag"],
 
+      // Services
+      "@/service/*": ["services/*"],
+
       // Store
       "@/store/*": ["store/*"],
 

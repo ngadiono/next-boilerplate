@@ -1,12 +1,11 @@
 // Types
 import * as types from './types';
 
-export const actionLayoutStatus = (status, message) => (dispatch) => {
+export const actionModuleUserStatus = (status) => (dispatch) => {
   return dispatch({
     type: types.STATUS,
     payload: {
       status,
-      message,
     },
   });
 };

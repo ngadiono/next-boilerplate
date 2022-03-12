@@ -6,7 +6,7 @@ const initialI18nState = {
   defaultLocale: 'id-ID',
 };
 
-// i18n reducer
+// Tab reducer
 export default (state = initialI18nState, { type, payload }) => {
   switch (type) {
     case types.LOCALES:

@@ -1,4 +1,0 @@
-const LAYOUT = 'LAYOUT_';
-const LAYOUT_MOBILE = LAYOUT + 'LAYOUT_MOBILE_';
-
-export const STATUS = LAYOUT_MOBILE + 'STATUS';

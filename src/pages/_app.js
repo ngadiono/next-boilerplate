@@ -6,6 +6,9 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 
+// Configs
+import { wrapper } from '@/redux/store';
+
 // Styles
 import theme from '@/styles/mui/theme';
 import createEmotionCache from '@/styles/emotion/createEmotionCache';
@@ -37,4 +40,4 @@ App.propTypes = {
   pageProps: PropTypes.object.isRequired,
 };
 
-export default App;
+export default wrapper.withRedux(App);
