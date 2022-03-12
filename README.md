@@ -81,6 +81,7 @@
 - [https://mui.com](https://mui.com/)
 - [https://cssinjs.org](https://cssinjs.org/)
 - [https://styled-components.com](https://styled-components.com/)
+- [https://emotion.sh/](https://emotion.sh/)
 
 ## Main Features
 
@@ -91,7 +92,7 @@
 - State management system (layout, ui, i18n, modules)
 - Layout management system (landing, dashboard, mobile and dynamic layout)
 - Stylesheet management system (override, global)
-- Metadata management system
+- SEO management system
 - Assets management system (images, fonts etc)
 - Folder management system (structure files app)
 - Components management system
