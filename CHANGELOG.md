@@ -3,6 +3,7 @@
 ## 1.0.0 - March 2022
 
 - Custome Server with [Express.js](https://expressjs.com/)
+- [Material UI](https://mui.com/) include
 - Unit testing with [Jest](https://jestjs.io/)
 - Analyze bundles app
 - Support Environment variables

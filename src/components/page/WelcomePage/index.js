@@ -7,7 +7,7 @@ import Image from 'next/image';
 import useStyles from './style';
 
 const WelcomePage = () => {
-  const classes = useStyles();
+  const { classes } = useStyles();
   return (
     <>
       <Head>
