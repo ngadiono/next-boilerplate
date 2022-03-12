@@ -22,9 +22,6 @@ const useStyles = makeStyles()((theme) => {
       '& a': {
         color: '#0070f3',
         textDecoration: 'none',
-        '&:hover, &:focus, &:active': {
-          textDecoration: 'underline',
-        },
       },
     },
     description: {

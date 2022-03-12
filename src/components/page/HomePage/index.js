@@ -6,7 +6,7 @@ import Image from 'next/image';
 // Styles
 import useStyles from './style';
 
-const WelcomePage = () => {
+const HomePage = () => {
   const { classes } = useStyles();
   return (
     <>
@@ -18,7 +18,7 @@ const WelcomePage = () => {
       <div className={classes.container}>
         <main className={classes.main}>
           <h1 className={classes.title}>
-            Welcome to <a href="https://nextjs.org">Next Boilerplate</a>
+            Welcome to <a href="https://ngadionocr.gitbook.io/next-boilerplate/">Next Boilerplate</a>
           </h1>
 
           <p className={classes.description}>
@@ -26,9 +26,9 @@ const WelcomePage = () => {
           </p>
 
           <div className={classes.grid}>
-            <a href="https://nextjs.org/docs" className={classes.card}>
+            <a href="https://ngadionocr.gitbook.io/next-boilerplate/" className={classes.card}>
               <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>Find in-depth information about Next Boilerplate features and API.</p>
             </a>
 
             <a href="https://nextjs.org/learn" className={classes.card}>
@@ -50,21 +50,9 @@ const WelcomePage = () => {
             </a>
           </div>
         </main>
-        <footer className={classes.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={classes.logo}>
-              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            </span>
-          </a>
-        </footer>
       </div>
     </>
   );
 };
 
-export default WelcomePage;
+export default HomePage;

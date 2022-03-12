@@ -1,8 +1,8 @@
 // Components
-import WelcomePage from '@/page/WelcomePage';
+import HomePage from '@/page/HomePage';
 
-const Welcome = () => {
-  return <WelcomePage />;
+const Home = () => {
+  return <HomePage />;
 };
 
-export default Welcome;
+export default Home;
