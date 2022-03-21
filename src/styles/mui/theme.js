@@ -10,17 +10,20 @@ const defaultTheme = createTheme();
 export const modifyTheme = {
   palette: {
     common: {
-      black: '#000',
-      white: '#fff',
+      black: '#000000',
+      white: '#ffffff',
     },
     primary: {
-      main: '#48B9C7',
+      main: '#F04B32',
+    },
+    secondary: {
+      main: '#DADCE5',
     },
     error: {
       main: '#F04B32',
     },
     background: {
-      default: '#fff',
+      default: '#ffffff',
     },
     social: {
       wa: '#25D366',
@@ -31,26 +34,17 @@ export const modifyTheme = {
     },
   },
   typography: {
-    fontFamily: ['"Roboto"', 'sans-serif'].join(','),
-  },
-  shape: {
-    borderRadius: 4,
-  },
-  breakpoints: {
-    values: {
-      xs: 0,
-      sm: 500,
-      md: 960,
-      lg: 1280,
-      xl: 1920,
-    },
+    fontFamily: ['"Montserrat"', 'sans-serif'].join(','),
   },
 };
 
 const theme = createTheme({
   ...modifyTheme,
-  overrides: {
-    MuiButton: buttonStyled(modifyTheme),
+  components: {
+    // Name of the component
+    MuiButton: {
+      styleOverrides: buttonStyled(modifyTheme),
+    },
   },
 });
 

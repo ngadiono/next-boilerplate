@@ -81,7 +81,7 @@
 - [https://mui.com](https://mui.com/)
 - [https://cssinjs.org](https://cssinjs.org/)
 - [https://styled-components.com](https://styled-components.com/)
-- [https://emotion.sh/](https://emotion.sh/)
+- [https://emotion.sh](https://emotion.sh/)
 
 ## Main Features
 
