@@ -1,6 +1,7 @@
+// Vendors
 import { combineReducers } from 'redux';
 
-// Layout
+// Reducer types
 import layout from '@/store/layout/reducers';
 import ui from '@/store/ui/reducers';
 import i18n from '@/store/i18n/reducers';

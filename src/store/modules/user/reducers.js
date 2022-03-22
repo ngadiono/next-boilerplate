@@ -5,7 +5,7 @@ const initialModuleUserState = {
   status: false,
 };
 
-// Tab reducer
+// User reducer
 export default (state = initialModuleUserState, { type, payload }) => {
   switch (type) {
     case types.STATUS:
